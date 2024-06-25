@@ -9,3 +9,11 @@ The task at hand is to use windmill turbine data recorded at 10-minute intervals
 
 ### Project Summary
 This project involves deploying a machine learning model using a Flask web application to predict renewable energy output based on periodic time intervals (minutes, hours, days, months, etc.). The application processes wind turbine data recorded at 10-minute intervals over a period of 30 months to forecast wind power generation. Flask is utilized to create a web interface for users to input data and receive predictions. The model leverages time series analysis to account for the periodic nature of wind speed and direction, ensuring accurate and reliable energy predictions. The web app also serves static files, such as images and results, to enhance the user experience. 
+
+### Tech stacks
+```bash
+Flask
+Pandas
+Matplotlib/Seaborn
+Scikit-learn
+HTML/CSS
